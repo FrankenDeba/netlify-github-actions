@@ -9,6 +9,7 @@ function App() {
       <button onClick={() => setWelcome(true)}>Say thank you</button>
       {welcome && <h2>You are welcome!</h2>}
       <p>testing dev</p>
+      <p>testing test</p>
     </div>
   );
 }
