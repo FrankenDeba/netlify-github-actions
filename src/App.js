@@ -8,8 +8,7 @@ function App() {
       <h1>React app deployed to netlify with github actions ci/cd</h1>
       <button onClick={() => setWelcome(true)}>Say thank you</button>
       {welcome && <h2>You are welcome!</h2>}
-      <p>testing dev</p>
-      <p>testing test</p>
+      <p>added some extra code</p>
     </div>
   );
 }
